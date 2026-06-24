@@ -1,8 +1,8 @@
 import { Router } from "express";
-import { db } from "../db.js";
+import { db } from "./db.js";
 import fs from "fs";
 import path from "path";
-import { calculateScore } from "../utils/calculateScore.js";
+import { calculateScore } from "./calculateScore.js";
 
 const router = Router();
 
