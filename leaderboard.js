@@ -8,7 +8,7 @@ const router = Router();
 
 const RESULTS_FILE = path.resolve(
   process.cwd(),
-  "data",
+  
   "officialResults.json"
 );
 
